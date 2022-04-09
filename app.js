@@ -15,17 +15,25 @@
 // var studentName = new Array()
 
 ///==Question # 03 ==///
-// var stringArr = ["Asfand" , "Salahuddin" , "imran"]            
+// var stringArr = ["Asfand" , "Salahuddin" , "imran"]   
+
+
 
 ///==Question # 04 ==///
 // var numbersArr = [1 ,2 , 3 , 4]
 
 
+
+
 ///==Question # 05 ==///
-// var boolarray = [true , false , false ,true]            
+// var boolarray = [true , false , false ,true]  
+
+
 
 ///==Question # 06 ==///
 // var mixArray = [970 , "Asfand" , true];
+
+
 
 ///==Question # 07 ==///
 
@@ -35,6 +43,8 @@
 //     document.write(` <br>
 //                     ${i+1}) ${qualifications[i]}`)
 // }
+
+
 ///==Question # 08 ==///
 
 // var stdNames = ["Michael" , "John" , "Tony"];
@@ -46,6 +56,7 @@
 
 
 ///==Question # 09 ==///
+
 // var colorName = [ "red" , "Blue" , "Purple" , "Black"];
 // document.write (" COLOR Name =>" + " " + colorName + "<br>")
 // Part(A)
@@ -54,27 +65,36 @@
 // document.write(  "ADD COLOR =>" + " "  +colorName)
 
 // PART(B)
+
 // var addColor2 = prompt("Add color to the End of the array.");
 // colorName.push(addColor2)
 // document.write( "<br>" + "ADD COLOR last =>" + " "  +colorName)
 
 // PART(C)
+
 // var color1 = prompt("ADD COLOR 1 to the beginning of the Array")
 // var color2 = prompt("ADD COLOR 2 to the beginning of the Array")
 // colorName.unshift(color1 , color2 )
 // document.write(colorName)
+
 // PART(D)
+
 // colorName.shift();
 // document.write("Delete First array => " + colorName)
+
 // PART(E)
 // colorName.pop();
 // document.write("Delete Last array => " + colorName)
+
 // PART(F)
+
 // var indNum = parseInt(prompt("Enter a index number "))
 // var colorAdd = (prompt("Enter a colors name "))
 // colorName.splice(indNum, 0 , colorAdd);
 // document.write(colorName)
+
 // PART (G)
+
 // var qts = prompt("You want to delete a colors (yes/no)")
 // if(qts === "yes"){
 //     var qts2 = parseInt(prompt("how many color s you want to delete")) 
@@ -119,6 +139,7 @@
 
 
 ///===Question # 14 ===//
+
 // var devices = ["keyboard" , "mouse" , "printer" , "monitor"];
 // document.write(`out : <br>
 //                 ${devices[3]} <br>
@@ -136,10 +157,29 @@
 // for(var i=0;i<mobiles.length;i++){
 //     document.write("<option>" + mobiles[i]  +"</option>")
 // }            
-// document.write("</select>")            
+// document.write("</select>")    
+
+
+
+
+
+
+
 
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx//
+
+
+
+
+
+
+
+
+
+
+
+
 
 ///CHAPTER NO 17 -20 ///
 
@@ -165,7 +205,7 @@
 //===Question # 04 ===//
 
 // var tabNum = parseInt(prompt("Enter Table Number :"));
-// var tabLenght = parseInt(prompt("Enter Table Lenght :"));
+// var tabLenght = parseInt(prompt("Enter Table Length :"));
 // document.write(`Multiplication table of ${tabNum} <br / > Lenght ${tabLenght } <br />`  ) 
 // for(var i = 1  ; i<=tabLenght ; i++){
 //         document.write(`${tabNum} x ${i} = ${tabNum * i} <br /> `)
@@ -175,7 +215,7 @@
 
 ///===Question # 05 ===///
 
-// let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Strawberry"];
 // for(var value of fruits){
 //         document.write(value + "<br />" )
 // }
